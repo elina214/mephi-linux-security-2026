@@ -1,0 +1,66 @@
+    1  ls
+    2  ls -a
+    3  cd ..
+    4  ls
+    5  cd work/
+    6  ls
+    7  cd home
+    8  cd ..
+    9  cd ho
+   10  cd home/
+   11  ls
+   12  groupadd students
+   13  getent group students
+   14  useradd -m -u М265193 -g students -s /bin/bash user1
+   15  useradd -m -u 1234 -g students -s /bin/bash user1
+   16  cd home
+   17  l
+   18  ls
+   19  id user1
+   20  chage -M 90 user1
+   21  chage -l user1
+   22  find / -type f -perm -4000 2>/dev/null
+   23  ps -eo ruid,euid,pid,ppid,cmd | awk '$1 != 0 && $2 == 0'
+   24  dnf install -y procps-ng
+   25  dnf install -y procps-ng
+   26  ps -eo ruid,euid,pid,ppid,cmd | awk '$1 != 0 && $2 == 0'
+   27  exit
+   28  ls
+   29  passwd user1
+   30  passwd user1
+   31  su - user1
+   32  dnf install -y util-linux-core
+   33  su - user1
+   34  dnf install -y util-linux
+   35  dnf install -y util-linux
+   36  su - user1
+   37  su -i user1
+   38  su - user1
+   39  cd ..
+   40  cd home/
+   41  cd user1/
+   42  ls
+   43  su - user1
+   44  setcap cap_chown+ep /home/user1/chown
+   45  su - user1
+   46  exit
+   47  timedatectl --help
+   48  date --help
+   49  visudo
+   50  visudo
+   51  visudo
+   52  visudo -c
+   53  sudo -l -U user1
+   54  exit
+   55  clear
+   56  cd ..
+   57  cd ho
+   58  cd home/
+   59  cd user1/
+   60  ls
+   61  exit
+   62  history > ~/history.out
+   63  cd ~
+   64  ls
+   65  pwd
+   66  history > /work/history.out
